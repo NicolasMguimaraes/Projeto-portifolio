@@ -2,30 +2,85 @@ header{
     background-color: gray;
     padding: 0px;
     margin: -8px;
-    height: 200px;
+    
 }
 nav{
 margin-top: -30px;
+
+border: solid 1px black;
+height: 40px;
+padding: 10px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+
 
 }
 nav, a{
     padding-right: 10px;
     text-decoration: none;
     color: black;
-     font-weight: bolder;
+     
+    
 }
 *{
     font-family: Arial, Helvetica, sans-serif;  
-    font-weight: bolder;
+   
 }
-main, h1{
-    text-align: center;
+body{
+   background-color: #2563eb;
 }
-section#site1{
-    text-align: right;
-}
-img{
+section#Principal{
+    background-color: rgb(250, 250, 250);
     
-    width: 200px;
-    height: 200px;
+    min-height: 85vh;
+    max-width: 1100px;
+    margin: 2px;
+    margin: 54px auto;
+    
+    min-width: 85vw;
+    border-radius: 15px;
+    box-shadow: 2px 2px 9px black;
+}
+ main, h1{
+text-align: center;
+}
+section.card1{
+    background-color: white;
+    
+    min-width:  170px;
+    height:  250px;
+   margin-left: 70px;
+    padding: 50px;
+border-radius: 10px;
+box-shadow: 2px 2px 9px black;
+box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
+}
+section.card2{
+    background-color: rgb(255, 255, 255);
+    
+    min-width:  170px;
+    height: 250px;
+    
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px black;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
+    
+}
+section.card3{
+    background-color: white;
+    padding: 50px;
+    min-width:  170px;
+    height:  250px;
+   
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
+    
+}
+p{
+    background-color: #2563eb;
+}
+#secs{
+    display: flex;
+    gap: 90px;
 }
