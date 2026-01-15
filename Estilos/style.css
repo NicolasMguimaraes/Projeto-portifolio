@@ -97,9 +97,10 @@ section.card3{
 #botao1{
     padding: 10px;
     border-radius: 10px;
-    width: 50px;
+    width: auto;
     padding-left: 40px;
     padding-right: 40px;
+    white-space: nowrap;
     
 }
 .end{
@@ -124,7 +125,7 @@ main{
     justify-content: center;
 
 }
-@media (max-width:600px) {
+@media (max-width:800px) {
     #secs {
         flex-direction: column;
         align-items: center; 

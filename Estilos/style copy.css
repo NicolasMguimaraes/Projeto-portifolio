@@ -62,10 +62,12 @@ background-color: #ffffff;
 text-align: center;
 }
 section.card1{
+    display: flex;
+    position: relative;
     background-color: white;
-    
+    flex-direction: column;
     width:  15vw;
-    height:  250px;
+   min-height:  250px;
    margin-left: 10px;
     padding: 50px;
 border-radius: 10px;
@@ -74,28 +76,32 @@ box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
 }
 section.card2{
     background-color: rgb(255, 255, 255);
-    
+    position: relative;
     width:  15vw;;
-    height: 250px;
-    
+   min-height: 250px;
+     display: flex;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 2px 2px 9px black;
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
+    flex-direction: column;
     
 }
 section.card3{
+    position: relative;
     background-color: white;
     padding: 50px;
    width:  15vw;
-    height:  250px;
+    min-height:  250px;
     margin-right: 10px;
-   
+    display: flex;
     border-radius: 10px;
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.199);
+    flex-direction: column;
     
 }
 #botao1{
+    
     padding: 10px;
     border-radius: 10px;
     width: 50px;
@@ -104,16 +110,25 @@ section.card3{
     
 }
 .end{
+    position: static;
 margin-bottom: 10px;
-margin-top: 112px;
+margin-top: auto;
+white-space: nowrap;
+align-items: stretch;
 }
+
 .end2{
+    position: static;
 margin-bottom: 10px;
-margin-top: 130px;
+margin-top: auto;
+white-space: nowrap;
+align-items: stretch;
 }
 .end3{
+    position: static;
 margin-bottom: 10px;
-margin-top: 146px;
+margin-top: auto;
+white-space: nowrap;
 }
 
 main{
@@ -123,9 +138,10 @@ main{
     display: flex;
     gap: 40px;
     justify-content: center;
+    align-items: stretch;
 
 }
-@media (max-width:600px) {
+@media (max-width:800px) {
     #secs {
         flex-direction: column;
         align-items: center; 
@@ -162,3 +178,4 @@ main{
         height: 40vh;
                 }
 }
+
